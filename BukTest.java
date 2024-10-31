@@ -1,14 +1,14 @@
 public class BukTest {
     public static void main(String[] args) {
         String input = "prueba de codigo";
-        if(validationStringMetho(input)){
+        if(validationStringMethod(input)){
             System.out.println(resultMethod(input).toString().trim());
         }else{
             System.out.println("Error input");
         }
     }
 
-    private static boolean validationStringMetho(String x) {
+    private static boolean validationStringMethod(String x) {
         boolean response =false;
         if(!x.isEmpty()
                 && (x.length() > 0)){
